@@ -1,0 +1,7 @@
+#!/bin/bash
+
+INPUT=GUIBrazo.ui
+OUTPUT=GUIBrazo.py
+
+python3 -m PyQt5.uic.pyuic -x $INPUT -o $OUTPUT
+
